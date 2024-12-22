@@ -14,28 +14,28 @@ var restaurantInfo = [
         latlng: [10.7769, 106.7009], 
         rating: "★★★★★", 
         price: "50.000 - 100.000 VND", 
-        image: "https://via.placeholder.com/80", 
+        image: "./assets/css/img/pho-bo-huynh-duc-80x80.png", 
         hours: "Cả ngày", 
         menu: [
             { 
                 name: "Phở tái", 
                 price: "60.000 VND", 
-                image: "https://via.placeholder.com/80"
+                image: "./assets/css/img/pho-tai.png"
             },
             { 
                 name: "Phở nạm", 
                 price: "70.000 VND", 
-                image: "https://via.placeholder.com/80"
+                image: "./assets/css/img/pho-nam.png"
             },
             { 
                 name: "Phở Đặt Biệt", 
                 price: "100.000 VND", 
-                image: "https://via.placeholder.com/80"
+                image: "./assets/css/img/pho-dac-biet.png"
             },
             { 
                 name: "Trà đá", 
                 price: "10.000 VND", 
-                image: "https://via.placeholder.com/80"
+                image: "./assets/css/img/tra-da.png"
             }
         ]
     },
@@ -97,18 +97,18 @@ var restaurantInfo = [
         latlng: [10.7625, 106.6795], 
         rating: "★★★★★", 
         price: "35.000 - 99.000 VND", 
-        image: "com-tam-sa-bi-chuong.png", 
+        image: "./assets/css/img/com-tam-sa-bi-chuong.png", 
         hours: "Mở: 7:00 - Đóng: 22:00", 
         menu: [
             { 
                 name: "Combo Sườn Cốt Lếch Đặt Biệt", 
                 price: "89.000 VND", 
-                image: "suon-cot-lech.png"
+                image: "./assets/css/img/suon-cot-lech.png"
             },
             { 
                 name: "Combo Sườn Cây Đặt Biệt", 
                 price: "99.000 VND", 
-                image: "suon-cay.png"
+                image: "./assets/css/img/suon-cay.png"
             }
         ]
     },
@@ -357,21 +357,21 @@ const restaurantReviews = {
             rating: 5,
             time: "1 ngày trước",
             content: "Cơm tấm ngon, sườn nướng thơm. Phần ăn lớn, giá hợp lý.",
-            userImage: "av-nam1.png",
+            userImage: src="./assets/css/img/avt-ronaldo.png",
         },
         {
             name: "Hoàn",
             rating: 5,
             time: "2 ngày trước",
             content: "Nhân viên phục vụ tận tâm, cơm tấm ngon, nhất định sẽ ghé tới lần tiếp theo.",
-            userImage: "av-nam2.png",
+            userImage: "./assets/css/img/avt-nam-2.png",
         },
         {
             name: "Ngọc Thảo",
             rating: 5,
             time: "1 tuần trước",
             content: "Quán quen từ lâu, món ăn vẫn giữ được hương vị như trước.",
-            userImage: "av-nu.png",
+            userImage: src="./assets/css/img/avt-nu-01.png",
         }
     ],
     "Mì Quảng Hữu Nghị": [

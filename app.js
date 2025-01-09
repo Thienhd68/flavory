@@ -45,13 +45,13 @@ var restaurantInfo = [
         latlng: [10.7752, 106.7070], 
         rating: "★★★★★", 
         price: "40.000 - 80.000 VND", 
-        image: "https://via.placeholder.com/80", 
+        image: src="./assets/css/img/BG-bun-cha-hoai.jpg", 
         hours: "Mở: 6:00 - Đóng: 10:00", 
         menu: [
             { 
                 name: "Bún chả truyền thống", 
                 price: "50.000 VND", 
-                image: "https://via.placeholder.com/80"
+                image: "./assets/css/img/bun-cha-truyen-thong.jpg"
             },
             { 
                 name: "Nem rán", 

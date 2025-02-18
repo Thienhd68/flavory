@@ -226,7 +226,7 @@ header {
 /* Nút quay lại vị trí hiện tại */
 .location-button {
     position: fixed;
-    bottom: 50px;
+    bottom: 20px;
     right: 40px;
     z-index: 1000;
 }
